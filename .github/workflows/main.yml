@@ -16,7 +16,7 @@ jobs:
     steps:
       # Setup java
       - name: Setup JDK 17
-        uses: actions/setup-java@V2
+        uses: actions/setup-java@V3
         with:
           java-version: '17'
           distribution: 'adopt'
