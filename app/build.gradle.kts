@@ -43,8 +43,15 @@ tasks.test{
     useTestNG()
 }
 
+
 tasks {
     test {        
         testLogging.events = setOf(TestLogEvent.FAILED, TestLogEvent.PASSED, TestLogEvent.SKIPPED)
+    }
+}
+
+tasks.register("hello"){
+    doLast {
+        println("Hello Gradle")
     }
 }
