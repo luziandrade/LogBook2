@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v2
 
       # Make gradlew executable
-      - name: Make gradlew executable
+      - name: Grant executive permission for gradlew 
         run: chmod +x ./gradlew
 
       # Runs our build using Gradle
