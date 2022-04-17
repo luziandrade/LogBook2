@@ -12,7 +12,7 @@ include("app")
 
 plugins {
     id("com.gradle.enterprise") version("3.9")
-    id 'io.freefair.aggregate-javadoc' version ("3.9")
+    id ("io.freefair.aggregate-javadoc") version ("3.9")
 }
 
 gradleEnterprise {
