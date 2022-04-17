@@ -50,6 +50,10 @@ tasks {
     }
 }
 
+java {
+       withJavadocJar()
+}
+
 tasks.register("hello"){
     doLast {
         println("Hello Gradle")
