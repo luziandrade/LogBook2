@@ -34,11 +34,10 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
         
-      - name: Make a Build Scan
-        run: ./gradlew run
-        
-      - name: Make a Build Scan
+      # Generate Javadoc Gradle   
+      - name: Generate Javadoc
         run: ./gradlew javadoc
         
+      # Generate Scan Report 
       - name: Make a Build Scan
         run: ./gradlew clean build --scan
