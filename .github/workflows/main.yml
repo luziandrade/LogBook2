@@ -17,7 +17,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checkout and validate gradle wrapper
-      - name: Checkout and validate gradle wrapper
       - uses: actions/checkout@v2
       - uses: gradle/wrapper-validation-action@v1
       
