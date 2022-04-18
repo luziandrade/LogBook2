@@ -33,7 +33,7 @@ jobs:
         
        # Run our build using Gradle 
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew build --no-daemon
         
       # Generate Javadoc Gradle   
       - name: Generate Javadoc
