@@ -37,13 +37,6 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew build
         
-      # Generate Javadoc Gradle   
-      - name: Generate Javadoc
-        uses: ./gradlew javadoc
-        with:
-          name: Test report
-          path: src/javadoc
-        
         
       # Generate Scan Report 
       - name: Make a Build Scan
