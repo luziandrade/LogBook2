@@ -1,4 +1,4 @@
 # LogBook2
 
 
-![example workflow](https://github.com/luziandrade/LogBook2/actions/workflows/CI with Java/badge.svg)
+![example workflow](https://github.com/luziandrade/LogBook2/actions/workflows/CIwithJava/badge.svg)
